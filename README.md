@@ -1,10 +1,6 @@
-<img src="banner.svg" width="100%" alt="Lahav Pelts" />
+<img src="banner.svg?v=2" width="100%" alt="Lahav Pelts" />
 
 ## 🎯 About Me
-
-<table>
-<tr>
-<td width="60%" valign="top">
 
 ```python
 class Lahav:
@@ -25,17 +21,11 @@ class Lahav:
     }
 ```
 
-</td>
-<td width="40%" align="center" valign="middle">
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=LahavPelts&theme=radical&hide_border=true&background=1A1037" />
+</p>
 
-<img src="https://streak-stats.demolab.com?user=LahavPelts&theme=radical&hide_border=true&background=1A1037" width="100%" />
-
-> *"First, solve the problem. Then, write the code."*
-> — John Johnson
-
-</td>
-</tr>
-</table>
+<p align="center"><i>"First, solve the problem. Then, write the code."</i> — John Johnson</p>
 
 ## 📫 Connect With Me
 
