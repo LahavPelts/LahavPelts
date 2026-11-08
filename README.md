@@ -85,9 +85,3 @@ class Lahav:
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LahavPelts&theme=radical" width="49%" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LahavPelts&theme=radical&utcOffset=2" width="49%" />
 </p>
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=LahavPelts&theme=radical&no-frame=true&no-bg=true&margin-w=6&column=7" />
-</p>
