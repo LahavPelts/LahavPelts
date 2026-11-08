@@ -1,22 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1c1c1c"/>
-      <stop offset="1" stop-color="#9a9a9a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1037"/>
+      <stop offset=".55" stop-color="#2b1250"/>
+      <stop offset="1" stop-color="#0c2a4a"/>
     </linearGradient>
-    <linearGradient id="dune" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#2a2a2a"/>
-      <stop offset="1" stop-color="#050505"/>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff7ab6"/>
+      <stop offset=".5" stop-color="#ffb86b"/>
+      <stop offset="1" stop-color="#6ee7f9"/>
     </linearGradient>
-    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#bdbdbd"/>
-      <stop offset="1" stop-color="#ffffff"/>
-    </linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#ff4fa3" stop-opacity=".55"/><stop offset="1" stop-color="#ff4fa3" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#3fd0ff" stop-opacity=".5"/><stop offset="1" stop-color="#3fd0ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3"><stop offset="0" stop-color="#9b6bff" stop-opacity=".6"/><stop offset="1" stop-color="#9b6bff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="300" fill="url(#sky)"/>
-  <path d="M0 210 C 200 170, 380 190, 560 200 S 900 170, 1200 200 L1200 300 L0 300 Z" fill="#3a3a3a" opacity=".8"/>
-  <path d="M0 240 C 220 205, 420 230, 640 225 S 980 210, 1200 235 L1200 300 L0 300 Z" fill="url(#dune)"/>
-  <path d="M600 214 C 560 232, 700 240, 610 258 S 420 285, 520 300 L 600 300 C 520 285, 700 270, 660 252 S 600 228, 640 214 Z" fill="url(#river)" opacity=".85"/>
-  <text x="600" y="112" text-anchor="middle" fill="#ffffff" font-family="Consolas, 'Courier New', monospace" font-size="44" letter-spacing="2">Welcome to Lahav's GitHub</text>
-  <text x="600" y="165" text-anchor="middle" fill="#e6e6e6" font-family="Consolas, 'Courier New', monospace" font-size="30">&lt;/&gt;</text>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <circle cx="160" cy="60" r="220" fill="url(#g1)"/>
+  <circle cx="1080" cy="260" r="240" fill="url(#g2)"/>
+  <circle cx="760" cy="40" r="180" fill="url(#g3)"/>
+  <g font-family="Consolas, 'Courier New', monospace" fill="#ffffff" fill-opacity=".18" font-size="22">
+    <text x="60" y="250">&gt;&gt;&gt; import lahav</text>
+    <text x="930" y="60">git push origin main</text>
+    <text x="70" y="70">{ }</text>
+    <text x="1090" y="150">&lt;/&gt;</text>
+  </g>
+  <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="84" letter-spacing="4" fill="url(#name)">LAHAV PELTS</text>
+  <text x="600" y="200" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#e9e3ff">Python Developer  |  Automation &amp; Bots  |  Computer Vision  |  Networking</text>
+  <rect x="470" y="226" width="260" height="4" rx="2" fill="url(#name)"/>
 </svg>
